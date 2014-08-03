@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<title>Kenmore, WA</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="themes/kenmore.min.css" />
+   <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" /> 
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script> 
+  <script type="text/javascript" src="cordova.js"></script>
+    <style type="text/css">
+        .ui-icon-facebook:after {
+            background-image: url("themes/images/icons-png/facebook-white.png");
+            /* Make your icon fit */
+            background-size: 18px 18px;
+        }
+    .ui-icon-twitter:after {
+    background-image: url("themes/images/icons-png/twitter-white.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+    </style>
+</head>
+<body>
+<div data-role="page" data-theme="a" >
+<div data-role="header" data-position="fixed">
+<h1>Kenmore</h1>
+<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+</div><!-- /header -->
+<div role="main" class="ui-content">
+    <div style="text-align:center; width:100%;"><img src="images/kenmoreback.png" style="max-width:100%;" /></div>
+<div><h3><a href="#" class="ui-btn ui-icon-tag ui-btn-icon-left" target="_top">Business Directory</a></h3>
+</div>
+<div><h3><a href="contact.html" class="ui-btn ui-icon-phone ui-btn-icon-left" data-transition="slideup">Contact Information</a></h3>
+</div>
+    <div><h3><a href="#" class="ui-btn ui-icon-calendar ui-btn-icon-left" target="_top">Event Calendar</a></h3>
+</div>
+    <div><h3><a href="#" onclick="window.open('https://www.facebook.com/kenmorewa','_blank','location=yes');" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-facebook" target="_top">Facebook</a></h3>
+    </div>
+    <div><h3><a href="#" class="ui-btn ui-icon-star ui-btn-icon-left" target="_top">News</a></h3>
+</div>
+    <div><h3><a href="#" class="ui-btn ui-icon-location ui-btn-icon-left" target="_top">Parks</a></h3>
+</div>
+    <div><h3><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-left" target="_top">Sign up for Alerts</a></h3>
+</div>
+    <div><h3><a href="#" class="ui-btn ui-icon-alert ui-btn-icon-left" target="_top">Traffic Alerts</a></h3>
+</div>
+    <div><h3><a href="#" onclick="window.open('https://twitter.com/KenmoreWA','_blank','location=yes');" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-twitter" target="_top">Twitter</a></h3>
+</div>
+
+</div><!-- /content -->
+<div data-role="footer" data-position="fixed">
+<h4>&copy; <a href="#" onclick="window.open('http://www.kenmorewa.gov', '_system'); return false;"  style="color:#005957">kenmorewa.gov</a></h4>
+</div><!-- /footer -->
+<div id="nav-panel" data-role="panel" data-display="overlay" data-position-fixed="true">
+<ul data-role="listview">
+<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="contact.html">Contact Information</a></li>
+<li><a href="#">Event Calendar</a></li>
+<li><a href="#">Facebook</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Parks</a></li>
+<li><a href="#">Sign up for Alerts</a></li>
+<li><a href="#">Traffic Alerts</a></li>
+</ul>
+</div>
+</div><!-- /page -->
+</body>
+</html>
